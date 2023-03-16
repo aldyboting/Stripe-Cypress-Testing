@@ -6,20 +6,10 @@ import AfterPayment from "../pageObjects/AfterPayment";
 class PaymentJourney {
     private stripeSecretKey: string
     private stripePriceKey: string
-    private _checkoutSessionID: string
-    private _paymentIntentID: string
 
     constructor(stripeSecretKey: string, stripePriceKey: string) {
         this.stripeSecretKey = decryptText(stripeSecretKey)
         this.stripePriceKey = decryptText(stripePriceKey)
-    }
-
-    get checkoutSessionID(): string {
-        return this._checkoutSessionID;
-    }
-
-    get paymentIntentID(): string {
-        return this._paymentIntentID;
     }
 
     checkoutDonation(donationType: string, donationAmount: string) {
