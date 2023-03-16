@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Cypress",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "lib": ["es2015", "dom"],
+    "types": ["cypress", "node"],
+    "typeRoots": [ "../node_modules/@types" ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}

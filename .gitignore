@@ -123,3 +123,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+#mocha report
+mochawesome-report
+
