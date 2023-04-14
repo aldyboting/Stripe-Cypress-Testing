@@ -1,19 +1,3 @@
-
-# Oddle QA Challenge
-
-**Table of Contents**
-
-* [General info](#general-info)
-* [Instructions](#instructions)
-* [Prerequisite](#prerequisite)
-* [Notes](#notes)
-
-## General info
-
-* **Name :** Aldy Syah Daviq Ramadhan
-* **Email Address :** aldyboting@gmail.com
-* **Apply From :** LinkedIn
-
 ## Prerequisite
 
 ##### I strongly suggest you to use node **v16.16.0**.
